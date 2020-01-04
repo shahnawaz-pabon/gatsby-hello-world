@@ -21,7 +21,7 @@ export default ({ children }) => {
     `
   )
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+    <div style={{ margin: `3rem auto`, maxWidth: 900, padding: `0 1rem` }}>
       <header style={{ marginBottom: `1.5rem` }}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ display: `inline` }}>{data.site.siteMetadata.title}</h3>
@@ -30,6 +30,7 @@ export default ({ children }) => {
           <ListLink to="/">Home</ListLink>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/contact/">Contact</ListLink>
+          <ListLink to="/about-css-modules/">Another</ListLink>
           <ListLink to="/my-files/">MyFiles</ListLink>
         </ul>
       </header>
