@@ -8,6 +8,8 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `Panda Eating Lots`,
+    description: `A simple description about pandas eating lots...`,
+    author: `Shahnawaz Hossan`,
   },
   plugins: [
     {
@@ -39,5 +41,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
