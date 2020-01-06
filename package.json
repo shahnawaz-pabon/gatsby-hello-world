@@ -7,6 +7,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "build:pp": "gatsby build --prefix-paths",
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
